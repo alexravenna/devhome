@@ -1,0 +1,265 @@
+repo_name: alexravenna/devhome
+report_id: f34d53e755bfb529fa0b56fee0ed22ce
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-13T11:02:35+00:00'
+requested_by: RDMacLachlan
+provider: github
+branch: main
+detected_tools_count: 20
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/alexravenna/devhome
+  detection_source: Repo Metadata
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/alexravenna/devhome
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/alexravenna/devhome
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/uitest/DevHome.UITest.csproj
+  detection_source: uitest/DevHome.UITest.csproj
+  last_updated_by: Eric Johnson
+  last_updated_on: 2023-03-06 17:54:04.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/build/azure-pipelines.yml
+  detection_source: build/azure-pipelines.yml
+  last_updated_by: Eric Johnson
+  last_updated_on: 2024-02-01 19:42:48.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/alexravenna/devhome
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/.github/workflows/DevHome-CI.yml
+  detection_source: ".github/workflows/DevHome-CI.yml"
+  last_updated_by: Jeremy Sinclair
+  last_updated_on: 2024-01-18 00:45:00.000000000 Z
+- name: Moq
+  description: The most popular and friendly mocking framework for .NET
+  website_url: https://github.com/Moq/moq4
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1628/1434934.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/tools/SetupFlow/DevHome.SetupFlow.UnitTest/DevHome.SetupFlow.UnitTest.csproj
+  detection_source: tools/SetupFlow/DevHome.SetupFlow.UnitTest/DevHome.SetupFlow.UnitTest.csproj
+  last_updated_by: Kristen Schau
+  last_updated_on: 2024-02-06 17:55:45.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/uitest/DevHome.UITest.csproj
+  detection_source: uitest/DevHome.UITest.csproj
+  last_updated_by: Eric Johnson
+  last_updated_on: 2023-03-06 17:54:04.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/DevHome.sln
+  detection_source: DevHome.sln
+  last_updated_by: Eric Johnson
+  last_updated_on: 2023-03-06 17:54:04.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/alexravenna/devhome
+  detection_source: Repo Metadata
+- name: Appium.WebDriver
+  description: Selenium Webdriver extension for Appium
+  package_url: https://www.nuget.org/Appium.WebDriver
+  version: 4.4.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14143/default_f35a7f4dbace063a7776d713533b69bb952bd71e.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/uitest/DevHome.UITest.csproj
+  detection_source: uitest/DevHome.UITest.csproj
+  last_updated_by: Eric Johnson
+  last_updated_on: 2024-01-11 20:12:25.000000000 Z
+- name: LibGit2Sharp
+  description: LibGit2Sharp brings all the might and speed of libgit2
+  package_url: https://www.nuget.org/LibGit2Sharp
+  version: 0.27.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13482/default_f8915c57807eaedc6194d573787cc8e2d6cd1d23.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/tools/SetupFlow/DevHome.SetupFlow/DevHome.SetupFlow.csproj
+  detection_source: tools/SetupFlow/DevHome.SetupFlow/DevHome.SetupFlow.csproj
+  last_updated_by: Flor Chacón
+  last_updated_on: 2023-04-12 14:05:10.000000000 Z
+- name: MSTest.TestFramework
+  description: This is MSTest V2, the evolution of Microsoft's Test Framework
+  package_url: https://www.nuget.org/MSTest.TestFramework
+  version: 2.2.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13142/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/test/DevHome.Test.csproj
+  detection_source: test/DevHome.Test.csproj
+  last_updated_by: Eric Johnson
+  last_updated_on: 2023-03-06 17:54:04.000000000 Z
+- name: Microsoft.Extensions.Configuration.Binder
+  description: Functionality to bind an object to data in configuration providers
+    for Microsoft.Extensions.Configuration
+  package_url: https://www.nuget.org/Microsoft.Extensions.Configuration.Binder
+  version: 8.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12893/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/uitest/DevHome.UITest.csproj
+  detection_source: uitest/DevHome.UITest.csproj
+  last_updated_by: Jeremy Sinclair
+  last_updated_on: 2024-01-18 00:45:00.000000000 Z
+- name: Microsoft.Extensions.Configuration.Json
+  description: JSON configuration provider implementation for Microsoft.Extensions.Configuration
+  package_url: https://www.nuget.org/Microsoft.Extensions.Configuration.Json
+  version: 8.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12865/default_4ea11141d2970a66e9637b71cf054ab66968c217.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/uitest/DevHome.UITest.csproj
+  detection_source: uitest/DevHome.UITest.csproj
+  last_updated_by: Jeremy Sinclair
+  last_updated_on: 2024-01-18 00:45:00.000000000 Z
+- name: Microsoft.Extensions.Hosting
+  description: ".NET Core hosting and startup infrastructures for applications"
+  package_url: https://www.nuget.org/Microsoft.Extensions.Hosting
+  version: 8.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13013/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/common/DevHome.Common.csproj
+  detection_source: common/DevHome.Common.csproj
+  last_updated_by: Kristen Schau
+  last_updated_on: 2024-02-09 20:44:59.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 13.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/common/DevHome.Common.csproj
+  detection_source: common/DevHome.Common.csproj
+  last_updated_by: Kristen Schau
+  last_updated_on: 2024-02-09 20:44:59.000000000 Z
+- name: System.Diagnostics.PerformanceCounter
+  description: Provides the System.Diagnostics.PerformanceCounter class, which allows
+    access to Windows performance counters
+  package_url: https://www.nuget.org/System.Diagnostics.PerformanceCounter
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13492/default_f8915c57807eaedc6194d573787cc8e2d6cd1d23.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/CoreWidgetProvider/CoreWidgetProvider.csproj
+  detection_source: CoreWidgetProvider/CoreWidgetProvider.csproj
+  last_updated_by: Jeremy Sinclair
+  last_updated_on: 2024-01-18 00:45:00.000000000 Z
+- name: System.Management.Automation
+  description: PowerShell runtime for hosting PowerShell Core
+  package_url: https://www.nuget.org/System.Management.Automation
+  version: 7.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13866/default_1dc9a9444fe68b18bef2b0e836067caced79799a.png
+  detection_source_url: https://github.com/alexravenna/devhome/blob/main/common/DevHome.Common.csproj
+  detection_source: common/DevHome.Common.csproj
+  last_updated_by: Kristen Schau
+  last_updated_on: 2024-01-11 19:44:44.000000000 Z
